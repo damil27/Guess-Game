@@ -17,7 +17,7 @@ let secretNum = Math.trunc(Math.random()* max) + min;
    
   }else{
     console.log(`try again, you have ${currentPoint}`);
-    guess = prompt(`enter your guess number btw ${min} and ${max}`)
+    guess = prompt(`enter your guess number between ${min} and ${max}`)
   }
 
      
